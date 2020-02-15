@@ -7,6 +7,7 @@ def square_array(array)
     new_number = num*num
     puts new_number
     square_array[counter] << new_number
+    puts square_array[counter]
     counter += 1
   end
   square_array
