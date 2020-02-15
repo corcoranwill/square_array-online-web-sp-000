@@ -1,10 +1,10 @@
 def square_array(array)
-  array_new = []
+  square_array = []
   array.each do  |num|
-    array_new[counter] << num*num
+    square_array[counter] << num*num
     counter += 1
   end
-  array_new
+  square_array
 end
 
 # ```ruby
