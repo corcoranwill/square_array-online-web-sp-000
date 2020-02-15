@@ -5,6 +5,7 @@ def square_array(array)
   array.each do |num|
     puts num
     new_number = num*num
+    puts new_number
     square_array[counter] << new_number
     counter += 1
   end
